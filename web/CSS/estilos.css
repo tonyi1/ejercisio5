@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
+form{
+    margin-top: 30px;
+
+    width: 300px;
+    box-shadow: 0 0 20px #cefff1;
+    padding: 20px;
+    border-radius: 7px;
+}
+label{
+    margin-top: 20px;
+}
+input{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: #e5fef7;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid #b8cdf8;
+    width: 80%;
+}
+button{
+    margin-top: 10px;
+
+    padding: 5px;
+    background-color: #b8cdf8;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 85%;
+}
+button:hover{
+    background-color: #6599ff;
+    color: white;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorNombre,.errorCelular,.errorCorreo{
+    font-size: small;
+    color: red;
+}
+.errorInput{
+    background-color: rgb(245, 205, 205);
+    border:2px solid red ;
+}
+
+.correctoInput{
+    background-color: rgb(193, 244, 193);
+    border:2px solid green ;
+}
+
+.xmarkErrorNombre,.xmarkErrorCelular,.xmarkErrorCorreo{
+    color: red;
+}
+
+.checkMarkNombre,.checkMarkCelular,.checkMarkCorreo{
+    color: green;
+}
+
+.ocultar{
+    display: none;
+    visibility: hidden;
+}
